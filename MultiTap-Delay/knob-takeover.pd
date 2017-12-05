@@ -1,4 +1,4 @@
-#N canvas 3 49 1360 716 10;
+#N canvas 686 49 677 716 10;
 #X obj -46 254 t b f;
 #X obj -173 -60 r changed-parameter;
 #X obj -133 43 mod 4;
@@ -27,6 +27,7 @@
 #X obj -49 458 == 1;
 #X obj -85 92 t f f f;
 #X obj -133 68 == \$1;
+#X obj 11 136 r current-preset;
 #X connect 0 0 11 0;
 #X connect 0 1 11 1;
 #X connect 1 0 5 0;
@@ -64,3 +65,4 @@
 #X connect 26 1 21 0;
 #X connect 26 2 10 0;
 #X connect 27 0 8 0;
+#X connect 28 0 9 0;
