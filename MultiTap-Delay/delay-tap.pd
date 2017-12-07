@@ -8,8 +8,8 @@
 #X msg 329 125 \$1 \$2;
 #X obj 197 278 *~;
 #X obj 74 269 *~;
-#X obj 91 207 sig~ 1;
-#X obj 91 229 -~;
+#X obj 90 207 sig~ 1;
+#X obj 90 229 -~;
 #X obj 300 201 lop~ 1;
 #X obj 131 323 +~;
 #X obj 73 125 delread~ signalL;
