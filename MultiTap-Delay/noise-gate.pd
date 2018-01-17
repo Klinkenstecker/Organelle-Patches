@@ -1,0 +1,4 @@
+#N canvas 72 315 450 548 10;
+#X obj 79 56 inlet~;
+#X obj 76 499 outlet~;
+#X obj 256 56 r changed-parameter;
