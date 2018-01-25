@@ -1,4 +1,4 @@
-#N canvas 690 50 677 716 10;
+#N canvas 691 50 677 716 10;
 #X obj -46 254 t b f;
 #X obj -173 -80 r changed-parameter;
 #X obj -146 21 mod 4;
@@ -34,7 +34,6 @@
 #X obj -146 140 &&;
 #X obj 121 1 r current-button-prio;
 #X obj 17 -18 r current-page-prio;
-#X obj -167 302 print;
 #X obj -141 -12 t f f;
 #X connect 0 0 8 0;
 #X connect 0 1 8 1;
@@ -44,7 +43,6 @@
 #X connect 3 0 13 0;
 #X connect 3 0 16 1;
 #X connect 3 0 17 1;
-#X connect 3 0 35 0;
 #X connect 4 0 5 1;
 #X connect 5 0 32 0;
 #X connect 6 0 0 0;
@@ -71,7 +69,7 @@
 #X connect 23 2 7 0;
 #X connect 24 0 5 0;
 #X connect 25 0 3 0;
-#X connect 25 1 36 0;
+#X connect 25 1 35 0;
 #X connect 25 2 4 0;
 #X connect 25 3 28 0;
 #X connect 26 0 25 0;
@@ -82,5 +80,5 @@
 #X connect 32 0 3 1;
 #X connect 33 0 28 1;
 #X connect 34 0 29 1;
-#X connect 36 0 2 0;
-#X connect 36 1 31 0;
+#X connect 35 0 2 0;
+#X connect 35 1 31 0;
